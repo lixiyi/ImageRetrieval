@@ -61,7 +61,9 @@
 * 每个索引的倒排表不要过长，希望数据能均匀分布在每个倒排项上
 * 本文用4096大小的词向量相当于词典的总大小为4096，对于10亿文档而言每个词项任然存在分到大量的文档的问题
 
+## References
 
+* [Large-Scale Image Retrieval with Elasticsearch](http://www.nmis.isti.cnr.it/falchi/Draft/2018-SIGIR.pdf)
 
 
 
