@@ -36,7 +36,7 @@
 ## RMAC提取图片特征向量
 
 * 将图片的几个区域聚合成一个稠密压缩的全局图像表示
-* 详见
+* 详见[RMAC](https://github.com/lixiyi/ImageRetrieval/blob/master/RMAC.md)
 
 ## 三种排列的距离函数
 
