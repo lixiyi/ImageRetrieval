@@ -31,3 +31,8 @@
   * 查询时，先得到Q的高维稀疏表示，把非0位置的倒排列表取出合并，Q和D一一点积计算Score
   * 查询时用PRF扩展Q
   * 用弱监督方法训练：QL模型打弱标签
+
+## [PPT](pdf/PPT-SNRM.pdf)
+
+## Reference
+[From Neural Re-Ranking to Neural Ranking Learning a Sparse Representation for Inverted Indexing](http://delivery.acm.org/10.1145/3280000/3271800/p497-zamani.pdf?ip=159.226.40.77&id=3271800&acc=ACTIVE%20SERVICE&key=33E289E220520BFB%2ED25FD1BB8C28ADF7%2E4D4702B0C3E38B35%2E4D4702B0C3E38B35&__acm__=1572256137_4578584be48ee316f2dafa9f17757c45)
