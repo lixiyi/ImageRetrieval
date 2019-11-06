@@ -219,6 +219,7 @@
 # 工业界产品调研
 
 * [`CBIR Engine List`](https://en.wikipedia.org/wiki/List_of_CBIR_engines) 
+* [知乎——以图搜图的引擎](https://www.zhihu.com/question/20640263/answer/15714365)
 
 ### [LIRE](http://www.lire-project.net/)
 
@@ -270,6 +271,9 @@
 
 ### [SnapFashion](https://www.snapfashion.com)
 * 购物：相似的颜色和形状
+
+### [Turi Create](https://github.com/apple/turicreate)
+* 苹果公司机器学习框架，python，最近邻
 
 
 # References
