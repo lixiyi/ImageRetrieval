@@ -1,3 +1,19 @@
+<!-- TOC -->
+
+- [工业界CBIR论文](#工业界cbir论文)
+- [京东](#京东)
+        - [挑战](#挑战)
+        - [架构设计](#架构设计)
+            - [Indexing](#indexing)
+            - [Search](#search)
+        - [评价指标](#评价指标)
+        - [其他](#其他)
+- [Ebay](#ebay)
+        - [摘要](#摘要)
+- [参考](#参考)
+
+<!-- /TOC -->
+
 # 工业界CBIR论文
 
 * 关键检索词： visual search
@@ -7,7 +23,7 @@
     * Pinterest Lens
     * Google Lens
 
-# [京东](https://arxiv.org/pdf/1908.07389.pdf)
+# 京东
 
 ### 挑战
 
@@ -41,6 +57,18 @@
     * 横向分割：一个节点只存了部分key,但每个key的posting list是完整的
     * posting list要比key的数量大得多，横向分割查找起来很慢，网络通信代价也很大
 
+
+# Ebay
+
+### 摘要
+
+* 有监督的方法：分类预测 + 稠密二进制语义Hash（无损精度），`直接在预测出的分类中检索`
+* Aspect-Based 重排序强制语义相似
+* 在Ebay应用于 : ShopBot 和 Close5
+
+
+
 # 参考
-[1] 京东 [The Design and Implementation of a Real Time Visual Search System on JD E-commerce Platform](https://arxiv.org/pdf/1908.07389.pdf)
-[2] 京东vearch Github [https://github.com/vearch/vearch](https://github.com/vearch/vearch)
+[1] 京东: [The Design and Implementation of a Real Time Visual Search System on JD E-commerce Platform](https://arxiv.org/pdf/1908.07389.pdf)
+[2] 京东 vearch Github [https://github.com/vearch/vearch](https://github.com/vearch/vearch)
+[3] Ebay: [Visual Search at eBay](https://arxiv.org/pdf/1706.03154.pdf)
